@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+display: grid;
+grid-template-columns: 300px auto;
+grid-template-rows: 140vh;
+
+
+}
+.item{
+	background-color: rgb(15, 20, 60);
+	border-style: none;
+	color: white;
+	text-align: center;
+}
+.title{
+	height: 80px;
+	width: 300px;
+	display: grid;
+	background-color: rgb(94, 85, 197);
+	grid-template-columns: 150px 150px;
+	grid-template-rows: auto;
+	margin-bottom: 10px;
+	border-radius: 50px;
+
+
+}
+.title-a{
+	background-color: rgb(94, 85, 197);
+	border-style: none;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+}
+.title-a h1{
+	margin-top: 25px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+
+
+}
+.title-a img{
+	margin-top: 15px;
+	width: 50px;
+	height: 50px;
+}
+.options{
+
+	height: 45px;
+	width: 200px;
+	margin-top: 5px;
+	margin-left: 20px;
+	padding-bottom: 0px;
+}
+
+.btn i{
+	margin-right:  2%;
+}
+.btn{
+	background-color: rgb(15, 20, 60);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 250px;
+  border-radius: 10px;
+  text-align: left;
+
+}
+
+.btn:hover{
+	background-color: rgb(94, 85, 197);
+}
+
+.options i{
+	text-align: center;
+}
+
+.item2{
+	background-color: rgb(39, 43, 74);
+	border-style: none;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+.top-bar{
+	height: 80px;
+	width: cover;
+	background-color: rgb(15, 20, 60);
+	border: 2px solid white;
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: 100px auto 100px;
+	grid-template-rows: auto;
+}
+.top-bar div{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 2%;
+	text-align: center;
+
+}
+.top-bar div h2{
+	padding-top: 1%;
+}
+
+.top-bar div img{
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+}
+
+.conteudo{
+	background-color: rgb(39, 43, 74);
+	display: grid;
+	grid-template-columns: 500px 240px 240px;
+	grid-auto-rows: 200px 300px;
+	grid-gap: 20px;
+	
+}
+
+.grafico{
+	background-color: rgb(15, 20, 60);
+	color: white;
+	width: cover;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.g1 h1{
+	margin-top: 10px;
+}
+.g1 p{
+	margin-left: 10px;
+}
+
+.g2{
+	background-image: url(https://uploaddeimagens.com.br/images/003/267/009/full/line.png?1622467047);
+	background-size: cover;
+	height: 95%;
+	background-position: bottom;
+}
+
+.g3{
+	background-image: url(https://uploaddeimagens.com.br/images/003/267/009/full/line.png?1622467047);
+	background-size: cover;
+	height: 95%;
+	background-position: bottom;
+}
+.g2 h3,
+.g3 h3{
+	margin-top: 15px;
+}
+.g2 h1,
+.g3 h1{
+	margin-left: 15px;
+}
+
+.g5{
+	grid-row: 2/2;
+	grid-column: 2/4;
+
+}

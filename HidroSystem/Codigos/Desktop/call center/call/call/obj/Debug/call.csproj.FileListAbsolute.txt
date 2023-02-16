@@ -1,0 +1,12 @@
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\bin\Debug\call.exe.config
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\bin\Debug\call.exe
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\bin\Debug\call.pdb
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\bin\Debug\OzekiSDK.dll
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\obj\Debug\call.csprojAssemblyReference.cache
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\obj\Debug\call.Form1.resources
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\obj\Debug\call.Properties.Resources.resources
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\obj\Debug\call.csproj.GenerateResource.cache
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\obj\Debug\call.csproj.CoreCompileInputs.cache
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\obj\Debug\call.csproj.CopyComplete
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\obj\Debug\call.exe
+C:\Users\Cyber_Root\Videos\AnyDesk\call\call\obj\Debug\call.pdb

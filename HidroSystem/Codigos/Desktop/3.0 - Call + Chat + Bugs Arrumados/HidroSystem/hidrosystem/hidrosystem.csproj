@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D05BBF9-FD72-4BE9-B48D-4BC5E16D100D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>hidrosystem</RootNamespace>
+    <AssemblyName>hidrosystem</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mjpegprocessor">
+      <HintPath>..\..\Mjpegprocessor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\consulta\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleIRCLib">
+      <HintPath>..\..\SimpleIRCLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dados.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\alertas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\alertas.Designer.cs">
+      <DependentUpon>alertas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\cameras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\cameras.Designer.cs">
+      <DependentUpon>cameras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\init.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\init.Designer.cs">
+      <DependentUpon>init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\irc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\irc.Designer.cs">
+      <DependentUpon>irc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\monitoramento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\monitoramento.Designer.cs">
+      <DependentUpon>monitoramento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\myinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\myinfo.Designer.cs">
+      <DependentUpon>myinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\relatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\relatorio.Designer.cs">
+      <DependentUpon>relatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\alertas.resx">
+      <DependentUpon>alertas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\cameras.resx">
+      <DependentUpon>cameras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\init.resx">
+      <DependentUpon>init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\irc.resx">
+      <DependentUpon>irc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\monitoramento.resx">
+      <DependentUpon>monitoramento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\myinfo.resx">
+      <DependentUpon>myinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\relatorio.resx">
+      <DependentUpon>relatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\push_notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\wi-fi_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\increase_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\plant_28px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\male_user_28px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\id_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\hardare50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\temperature_sensitive_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\ph_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\time_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\website_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\support_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\camera_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\camera_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat_26px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

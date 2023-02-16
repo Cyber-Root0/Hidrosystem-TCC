@@ -1,0 +1,9 @@
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\bin\Release\hidrosystem.exe.config
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\bin\Release\hidrosystem.exe
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\bin\Release\hidrosystem.pdb
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\obj\Release\hidrosystem.csprojAssemblyReference.cache
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\obj\Release\hidrosystem.Properties.Resources.resources
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\obj\Release\hidrosystem.csproj.GenerateResource.cache
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\obj\Release\hidrosystem.csproj.CoreCompileInputs.cache
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\obj\Release\hidrosystem.exe
+C:\Users\Cyber_Root\Desktop\Sistema\hidrosystem\hidrosystem\hidrosystem\obj\Release\hidrosystem.pdb

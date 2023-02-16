@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+.corpo{
+background: url(https://hidrosystem1.000webhostapp.com/images/greenbg.png) no-repeat;
+background-size: cover;
+height: 100vh;
+padding-top: 100px;
+}
+.login{
+height: 380px;
+width: 400px;
+margin-left: 32%;
+background-color: rgb(0,0,0,0.6);
+border-radius: 20px;
+padding-top: 70px;
+padding-left: 40px;
+}
+
+#string-login{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#pass{
+	font-family: 'Roboto', sans-serif;
+  height: 35px;
+  width: 280px;
+  border-radius: 7px;
+  border-style: none;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  transition: 1s;
+}
+
+.login input{
+	margin-bottom: 15px;
+}
+
+.login input[type="text"],
+.login input[type="email"]{
+	 font-family: 'Roboto', sans-serif;
+  height: 35px;
+  width: 280px;
+  border-radius: 7px;
+  border-style: none;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  transition: 1s;
+}
+.login input[type="submit"]{
+	background-color: rgb(0, 234, 0);
+	height: 35px;
+  width: 150px;
+  border-radius: 7px;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.login string{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(0, 234, 0);
+}
+#string{
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	justify-content: center;
+
+
+}
+.rodape{
+width: cover;
+height: 40px;
+background-color: rgb(247,247,247);
+
+}
+

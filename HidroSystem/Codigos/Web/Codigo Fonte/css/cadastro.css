@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+.corpo{
+background: url(https://hidrosystem1.000webhostapp.com/images/greenbg.png);
+background-size: cover;
+height: 100vh;
+padding-top: 50px;
+}
+.cadastro{
+height: 480px;
+width: 400px;
+margin-left: 32%;
+background-color: rgb(0,0,0,0.6);
+border-radius: 20px;
+padding-top: 40px;
+padding-left: 10px;
+}
+
+
+.cadastrp input{
+	margin-bottom: 15px;
+}
+#input-password{
+	 font-family: 'Roboto', sans-serif;
+  height: 35px;
+  width: 280px;
+  border-radius: 7px;
+  border-style: none;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  transition: 1s;
+  margin-bottom: 10px;
+}
+.cadastro input[type="text"],
+.cadastro input[type="number"],
+.cadastro input[type="email"]{
+	 font-family: 'Roboto', sans-serif;
+  height: 35px;
+  width: 280px;
+  border-radius: 7px;
+  border-style: none;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  transition: 1s;
+  margin-bottom: 10px;
+}
+.cadastro input[type="submit"]{
+  background-color: rgb(0, 234, 0);
+  height: 35px;
+  width: 150px;
+  border-radius: 7px;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.cadastro string{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(0, 234, 0);
+}
+#string{
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	justify-content: center;
+
+
+}
+
+
